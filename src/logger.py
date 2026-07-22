@@ -15,7 +15,7 @@ logging.basicConfig(
     filename=logfilepath,
     format="[%(asctime)s] %(lineno)d %(name)s - %(levelname)s - %(message)s",
     level=logging.INFO,
-    force=True
+    
 
 )
 
